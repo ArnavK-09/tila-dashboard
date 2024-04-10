@@ -20,7 +20,7 @@ app.get("/", async (_, res) => {
    */
   const browser = await puppeteer.connect({
     browserWSEndpoint:
-      "wss://fluffy-robot-wxxpjrpr4xw357rj-3000.app.github.dev/?token=6R0W53R135510",
+      "wss://",
   });
   const page = await browser.newPage();
 

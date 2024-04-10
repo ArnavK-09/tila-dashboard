@@ -1,0 +1,19 @@
+{
+  "name": "quine-quest-900",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "preact": "^10.20.2",
+    "preact-render-to-string": "^6.4.2",
+    "puppeteer": "^22.6.3",
+    "puppeteer-core": "^22.6.3"
+  }
+}
