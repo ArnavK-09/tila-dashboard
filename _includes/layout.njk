@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page | Lyro w-fullDash</title>
+    <link rel="stylesheet" href="/global.css">
+  </head>
+  <body class="py-6 px-4 bg-brand-950">
+    <main class="min-h-full w-full">
+      {{ components.navbar() | safe }}
+      <section class="container full-container p-0 flex flex-col gap-6">
+        {{ content | safe }}
+      </section>
+    </main>
+  </body>
+</html>
