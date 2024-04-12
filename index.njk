@@ -1,1 +1,17 @@
-<h2>shi</h2>
+<section>
+    {{ components.cards.status() | safe }}
+</section>
+<section class="grid break-all py-3 grid-cols-1 md:grid-cols-3 gap-4">
+    {{ components.cards.top_metrics({time: tila.metrics.load_time + "ms", caption: "Loading time"}) | safe }}
+    {{ components.cards.top_metrics({time: tila.metrics.dom_load_time + "ms", caption: "DOM Loading time"}) | safe }}
+    {{ components.cards.top_metrics({time: tila.metrics.memory_usage + "mb", caption: "Memory Usage"}) | safe }}
+    {{ components.cards.top_metrics({time: tila.metrics.time_to_first_byte + "ms", caption: "Time to first byte"}) | safe }}
+    {{ components.cards.top_metrics({time: tila.metrics.frames + "x", caption: "Frames Captured"}) | safe }}
+    {{ components.cards.top_metrics({time: tila.metrics.total_nodes, caption: "Nodes"}) | safe }}
+</section>
+<section>
+    {{ components.cards.uptime_chart() | safe }}
+</section>
+<section>
+    {{ components.incident_history() | safe }}
+</section>  

@@ -6,7 +6,7 @@ import nunjucks from "lume/plugins/nunjucks.ts";
 
 const site = lume({
     server: {
-        port: 2323
+        port: 2334
     },
     components: {
         variable: "components",
@@ -14,6 +14,7 @@ const site = lume({
 });
 
 site.use(robots());
+site.copy("icons")
 site.use(tailwindcss({
     options: {
         theme: {
