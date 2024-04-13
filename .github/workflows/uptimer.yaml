@@ -5,8 +5,11 @@ on:
   push:
     branches:
       - ["your_branch_name"]
+  
+  # CONFIGURE INTERVAL OF YOUR CHOICE
   schedule:
-    - cron: "*/1440 * * * *"
+    - cron: "*/720 * * * *"
+
   workflow_dispatch:
 
 jobs:
