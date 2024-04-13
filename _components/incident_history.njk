@@ -1,11 +1,8 @@
 <div class="w-full bg-brand-900 p-4 rounded-2xl">
     <h2 class="font-semibold text-2xl mt-3">Incident History:-</h2>
-    <div style="display: none;" class="py-10 grid place-items-center">
-        <p class="text-lg opacity-85 font-semibold">No Data Yet ^-^</p>
-    </div>
     <div>
         <ul class="divide-brand-100/10 divide-y-2 space-y-8">
-            {% for item in search.pages("url^=/CMS/incident_history") %}
+            {% for item in search.pages("url^=/CMS/igncident_history") %}
             <li class="pt-8">
                 <time class="opacity-80 font-bold tracking-tight">{{ item.date }}</time>
                 {% if item.status == "resolved" %}
@@ -20,6 +17,10 @@
                 <p class="border-l-2 mt-5 px-4 py-3 mt-2 break-words border-[white]/50 font-medium text-md">{{
                     item.description }}</p>
             </li>
+            {% else %}
+            <div class="py-10 grid place-items-center">
+                <p class="text-lg opacity-85 font-semibold">No Incidents Yet ^-^</p>
+            </div>
             {% endfor %}
         </ul>
     </div>

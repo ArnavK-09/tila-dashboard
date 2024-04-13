@@ -21,10 +21,10 @@
     new Chart(document.getElementById('uptimeChart'), {
       type: 'line',
       data: {
-        labels: ['Past', 'Now'],
+        labels: [{% for i in uptimeChartData.labels | list %}"{{ i }}",{% endfor %}],
         datasets: [{
           label: "Uptime",
-          data: [1, 1]
+          data: [{{uptimeChartData.data}}]
         }]
       },
       options: {
