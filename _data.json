@@ -2,14 +2,14 @@
   "tila": {
     "domain": "example.com",
     "metrics": {
-      "memory_usage": 1,
-      "dom_load_time": 829,
-      "time_to_first_byte": 202,
-      "frames": 1,
-      "total_nodes": 43,
-      "load_time": 829
+      "memory_usage": "-",
+      "dom_load_time": "-",
+      "time_to_first_byte": "-",
+      "frames": "-",
+      "total_nodes": "-",
+      "load_time": "-"
     },
-    "status": "online",
-    "time": "Sat, 13 Apr 2024 16:40:42 GMT"
+    "time": "Sat, 13 Apr 2024 16:41:17 GMT",
+    "status": "online"
   }
 }
