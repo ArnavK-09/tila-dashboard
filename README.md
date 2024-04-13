@@ -15,3 +15,5 @@
 8. push code to your github repo
 9. your site would be working well
 10. star this repo
+
+> tila-dashboard is a dashboard for your website metrics and uptime data whihc also includes feature to publish incidents for your website. create your own status page easily using capability of browserless. this dashboard also features backup and fully secured and self hostable. fully open source and customizable with the power of deno, tailwind css, nunjucks templates and lume.land web framework, also visualises data using chart.js
