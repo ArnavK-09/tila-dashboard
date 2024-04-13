@@ -1,13 +1,12 @@
 name: 🌸 Tila Uptimer Job!
 permissions: write-all
 
-paused:
+on:
   push:
     branches:
       - main
-  schedule:
-    # Run every 10 minutes
-    - cron: "*/10 * * * *"
+  #schedule:
+    #- cron: "*/10 * * * *"
   workfow_dispatch:
 
 jobs:
