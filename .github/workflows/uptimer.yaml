@@ -4,9 +4,9 @@ permissions: write-all
 on:
   push:
     branches:
-      - main
+      - ["your_branch_name"]
   schedule:
-    - cron: "*/240 * * * *"
+    - cron: "*/1440 * * * *"
   workflow_dispatch:
 
 jobs:
