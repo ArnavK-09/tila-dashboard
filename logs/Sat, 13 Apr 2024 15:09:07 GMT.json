@@ -3,13 +3,13 @@
     "domain": "example.com",
     "metrics": {
       "memory_usage": 1,
-      "dom_load_time": 829,
-      "time_to_first_byte": 204,
+      "dom_load_time": 864,
+      "time_to_first_byte": 203,
       "frames": 1,
       "total_nodes": 43,
-      "load_time": 830
+      "load_time": 864
     },
     "status": "online",
-    "time": "Sat, 13 Apr 2024 15:09:15 GMT"
+    "time": "Sat, 13 Apr 2024 15:09:07 GMT"
   }
 }

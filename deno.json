@@ -10,8 +10,6 @@
     "cms": "deno task lume cms"
   },
   "compilerOptions": {
-    "types": [
-      "lume/types.ts"
-    ]
+    "types": ["lume/types.ts"]
   }
 }
