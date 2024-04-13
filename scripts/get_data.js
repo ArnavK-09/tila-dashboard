@@ -60,14 +60,38 @@ import puppeteer from "npm:puppeteer-core";
 
     Deno.exit(0);
   } catch (e) {
+    // BACKUP
     console.error(e);
-    let DATA = JSON.parse(
-      new TextDecoder("utf-8").decode(await Deno.readFile("_data.json")),
+    const CONFIG = JSON.parse(
+      new TextDecoder("utf-8").decode(
+        await Deno.readFile("CONFIG.json").catch(() => "{}"),
+      ),
     );
-    DATA.status = "error";
+    const DATA = await fetch(
+      `https://${Deno.env.get("WEBSITE_DOMAIN") ?? CONFIG.domain}`,
+    );
+    const result  = {
+      "tila": {
+        "domain": Deno.env.get("WEBSITE_DOMAIN") ?? CONFIG.domain,
+        "metrics": {
+          "memory_usage": "-",
+          "dom_load_time": "-",
+          "time_to_first_byte": "-",
+          "frames": "-",
+          "total_nodes": "-",
+          "load_time": "-"
+        },
+        "time": new Date().toUTCString()
+      }
+    }
+    if (DATA?.status == 200) {
+      result.tila.status = "online";
+    } else {
+      result.tila.status = "error";
+    }
     await Deno.writeFile(
       "_data.json",
-      new TextEncoder().encode(JSON.stringify(DATA)),
+      new TextEncoder().encode(JSON.stringify(result)),
     );
 
     Deno.exit(0);
