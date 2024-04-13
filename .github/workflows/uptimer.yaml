@@ -3,8 +3,7 @@ permissions: write-all
 
 on:
   push:
-    branches:
-      - ["your_branch_name"]
+    branches: ["main"]
   
   # CONFIGURE INTERVAL OF YOUR CHOICE
   schedule:
