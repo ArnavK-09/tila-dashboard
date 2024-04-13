@@ -1,1 +1,15 @@
-{"tila":{"domain":"example.com","status":"online","metrics":{"memory_usage":1,"dom_load_time":851,"time_to_first_byte":203,"frames":1,"total_nodes":43,"load_time":851},"time":"Sat, 13 Apr 2024 16:29:58 GMT"}}
+{
+  "tila": {
+    "domain": "example.com",
+    "status": "online",
+    "metrics": {
+      "memory_usage": 1,
+      "dom_load_time": 851,
+      "time_to_first_byte": 203,
+      "frames": 1,
+      "total_nodes": 43,
+      "load_time": 851
+    },
+    "time": "Sat, 13 Apr 2024 16:29:58 GMT"
+  }
+}

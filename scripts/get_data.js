@@ -70,7 +70,7 @@ import puppeteer from "npm:puppeteer-core";
     const DATA = await fetch(
       `https://${Deno.env.get("WEBSITE_DOMAIN") ?? CONFIG.domain}`,
     );
-    const result  = {
+    const result = {
       "tila": {
         "domain": Deno.env.get("WEBSITE_DOMAIN") ?? CONFIG.domain,
         "metrics": {
@@ -79,11 +79,11 @@ import puppeteer from "npm:puppeteer-core";
           "time_to_first_byte": "-",
           "frames": "-",
           "total_nodes": "-",
-          "load_time": "-"
+          "load_time": "-",
         },
-        "time": new Date().toUTCString()
-      }
-    }
+        "time": new Date().toUTCString(),
+      },
+    };
     if (DATA?.status == 200) {
       result.tila.status = "online";
     } else {
