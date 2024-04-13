@@ -1,8 +1,10 @@
+<!-- deno-fmt-ignore-file -->
+
 # 🌸 Tila Dashboard
 
 <p align="center">
-## Effortless Website Monitoring and Incident Management
-
+<h2>Effortless Website Monitoring and Incident Management</h2>
+<br />
 <img alt="cover" src="https://fav.farm/🌸" />
 </p>
 
