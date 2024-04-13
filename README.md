@@ -3,9 +3,9 @@
 # 🌸 Tila Dashboard
 
 <p align="center">
-<h2>Effortless Website Monitoring and Incident Management</h2>
+<h2 align="center">Effortless Website Monitoring and Incident Management</h2>
 <br />
-<img alt="cover" src="https://fav.farm/🌸" />
+<img alt="cover" src="https://fav.farm/🌸" height="200" width="20" />
 </p>
 
 > [!NOTE]
@@ -61,18 +61,25 @@
 > Tila Dashboard is designed to be easily self-hosted. Follow these steps to set
 > up your own instance:
 
-1. Clone the repository or use it as a **template**.
-2. Run `deno run -A scripts/delete_data.js` to clear the **demo** data.
-3. Configure the `.github/workflows/uptime.yml` workflow file with your website
-   domain and **time schedule** to monitor website at intervals.
-4. **Add your domain** to the `CONFIG.json` _or_ mention your domain under
-   "WEBSIRE_DOMAIN" in `.github/workflows/uptime.yml` workflow.
-5. Run `deno run -A scripts/get_data.js` to check your settings.
-6. Configure your GitHub repository secrets for the Browserless serv domain and
-   token.
-7. Enable GitHub Pages for your repository.
-8. Push your changes to GitHub, and your self-hosted Tila Dashboard will be up
-   and running!
+1. **Clone or Use as Template**: Start by either cloning the Tila Dashboard repository directly or use it as a template to create a new repository for your own customized version.
+
+2. **Clear Demo Data**: Before you begin configuring the project, run the command **` deno run -A scripts/delete_data.js `,, to clear the demo data from the repository, ensuring a clean slate for your own website monitoring setup.
+
+3. **Configure Uptime Workflow**: Navigate to the **`.github/workflows/uptime.yml`** file and update it with your website's domain and the desired monitoring schedule in crone date time format. This will set up a recurring GitHub Actions workflow to regularly check the uptime of your website.
+
+4. **Add Your Website Domain**: Either add your website's domain to the `CONFIG.json` file or specify it under the **`WEBSITE_DOMAIN`** environment variable in the ,,`.github/workflows/uptime.yml`** workflow. This will ensure that the dashboard tracks the correct website.
+
+5. **Verify Settings**: Run the command **` deno run -A scripts/get_data.js `** to check that your website domain and other settings are correctly configured.
+
+6. **Set Up Browserless Credentials**: Configure the `BROWSERLESS_SERVER_DOMAIN` GitHub repository secret for the Browserless API and authentication `TOKEN`. This will allow the uptime monitoring workflow to securely access the Browserless service.
+
+7. **Enable GitHub Pages**: Enable GitHub Pages for your repository so that the Tila Dashboard can be served as a static website.
+
+8. **Deploy to GitHub**: Commit and push your changes to your GitHub repository. Once the initial workflow run completes, your self-hosted Tila Dashboard will be up and running, ready to monitor and display the metrics for your website powered by GitHub actions.
+
+> [!IMPORTANT]
+> 
+> Remember, these steps guide you through the initial setup process. After completing these steps, you can further customize the Tila Dashboard to meet your specific needs, such as adding more websites to monitor, configuring incident reporting, and exploring the various features of the dashboard.
 
 ---
 
@@ -120,6 +127,8 @@ project's goals.
 
 <p align="center><strong>👋 We hope Tila Dashboard helps you effortlessly monitor and
 manage your website's uptime, metrics, and incident history. Happy coding! </strong></p>
+
+--- 
 
 > ![WARNING]
 >
