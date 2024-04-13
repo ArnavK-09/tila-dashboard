@@ -34,7 +34,7 @@
   about any incidents or maintenance.
 - 🔒 **Secure and Self-Hostable**: Fully open-source and customizable, with the
   option to self-host the dashboard.
-- 🥟 **Perfect UI/UX**: Completely responsive and customizable website design,
+- 🥟 **Desktop UI/UX**: Completely desktop friendly and customizable website design,
   with support for tailwind css.
 
 ## 🛠️ Tech Stack
