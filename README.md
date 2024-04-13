@@ -6,15 +6,17 @@
    <img alt="cover" src="//fav.farm/🌸" />
 </p>
 
-> [!NOTE] 
-> 🌐 Tila Dashboard is a powerful and user-friendly platform that empowers you to monitor your website's uptime, metrics, and incident history.
-> With its sleek design and robust features, you can effortlessly manage your online presence and keep your users informed.
+> [!NOTE] 🌐 Tila Dashboard is a powerful and user-friendly platform that
+> empowers you to monitor your website's uptime, metrics, and incident history.
+> With its sleek design and robust features, you can effortlessly manage your
+> online presence and keep your users informed.
 
 ---
 
 > [!TIP]
 >
 > ### 🚀 Demo
+>
 > Experience the power of Tila Dashboard by visiting the
 > **[`live demo`](https://arnavk-09.github.io/tila-dashboard/)**
 
@@ -50,8 +52,8 @@
 
 # 🚀 Self-Hosting
 
-> [!TIP] 
-> Tila Dashboard is designed to be easily self-hosted. Follow these steps to set up your own instance:
+> [!TIP] Tila Dashboard is designed to be easily self-hosted. Follow these steps
+> to set up your own instance:
 
 1. Clone the repository or use it as a template.
 2. Run `deno run -A scripts/delete_data.js` to clear the demo data.
@@ -108,9 +110,10 @@ project's goals.
 
 <p align="center">If you find Tila Dashboard useful, please consider starring the repository. Your support helps us improve and maintain the project.</p>
 
---- 
+---
+
 <p align="center><strong>👋 We hope Tila Dashboard helps you effortlessly monitor and
 manage your website's uptime, metrics, and incident history. Happy coding! </strong></p>
 
-> ![WARNING]
-> Error status on live demo website is because I haven't hosted browserless otherwise it would show working sign!
+> ![WARNING] Error status on live demo website is because I haven't hosted
+> browserless otherwise it would show working sign!
