@@ -5,7 +5,7 @@
 3. configure .github/workflows/uptimer.yml, configure schedule to run (current
    demo runs every 4 hrs) and configure your website domain under WEBSITE_DOMAIN
    field in env!
-4. add your domain to check in config.json (optional if domain mentioned in
+4. add your domain to check in CONFIG.json (optional if domain mentioned in
    .github/workflows/uptimer.yml)
 5. run locally deno run -A scripts/get_data.js to check your settings
 6. configure your github repo secrets
