@@ -7,7 +7,7 @@ on:
       - main
   #schedule:
     #- cron: "*/10 * * * *"
-  workfow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       BROWSERLESS_SERVER_DOMAIN: ${{ secrets.BROWSERLESS_SERVER_DOMAIN }}
       BROWSERLESS_TOKEN: 6R0W53R135510
-      WEBSITE_DOMAIN: motherfuckingwebsite.com
+      WEBSITE_DOMAIN: example.com
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
