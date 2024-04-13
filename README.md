@@ -95,9 +95,9 @@
 
 2. **Clear Demo Data**: Before you begin configuring the project, run the command **` deno run -A scripts/delete_data.js `** to clear the demo data from the repository, ensuring a clean slate for your own website monitoring setup.
 
-3. **Configure Uptime Workflow**: Navigate to the **`.github/workflows/uptime.yml`** file and update it with your website's domain and the desired monitoring schedule in crone date time format. This will set up a recurring GitHub Actions workflow to regularly check the uptime of your website.
+3. **Configure Uptime Workflow**: Navigate to the **`.github/workflows/uptimer.yml`** file and update it with your website's domain and the desired monitoring schedule in crone date time format. This will set up a recurring GitHub Actions workflow to regularly check the uptime of your website.
 
-4. **Add Your Website Domain**: Either add your website's domain to the `CONFIG.json` file or specify it under the **`WEBSITE_DOMAIN`** environment variable in the **`.github/workflows/uptime.yml`** workflow. This will ensure that the dashboard tracks the correct website.
+4. **Add Your Website Domain**: Either add your website's domain to the `CONFIG.json` file or specify it under the **`WEBSITE_DOMAIN`** environment variable in the **`.github/workflows/uptimer.yml`** workflow. This will ensure that the dashboard tracks the correct website.
 
 5. **Verify Settings**: Run the command **` deno run -A scripts/get_data.js `** to check that your website domain and other settings are correctly configured.
 
