@@ -1,12 +1,15 @@
 # 🌸 Tila Dashboard
 
-## Effortless Website Monitoring and Incident Management
 
 <p align="center">
+## Effortless Website Monitoring and Incident Management
+
    <img alt="cover" src="https://fav.farm/🌸" />
 </p>
 
-> [!NOTE] 🌐 Tila Dashboard is a powerful and user-friendly platform that
+> [!NOTE] 
+> 
+> 🌐 Tila Dashboard is a powerful and user-friendly platform that
 > empowers you to monitor your website's uptime, metrics, and incident history.
 > With its sleek design and robust features, you can effortlessly manage your
 > online presence and keep your users informed.
@@ -52,17 +55,17 @@
 
 # 🚀 Self-Hosting
 
-> [!TIP] Tila Dashboard is designed to be easily self-hosted. Follow these steps
+> [!TIP] 
+>
+> Tila Dashboard is designed to be easily self-hosted. Follow these steps
 > to set up your own instance:
 
-1. Clone the repository or use it as a template.
-2. Run `deno run -A scripts/delete_data.js` to clear the demo data.
-3. Configure the `.github/workflows/uptimer.yml` file with your website domain
-   and scheduled runs.
-4. Add your domain to the `CONFIG.json` file (optional if already configured in
-   the workflow).
+1. Clone the repository or use it as a **template**.
+2. Run `deno run -A scripts/delete_data.js` to clear the **demo** data.
+3. Configure the `.github/workflows/uptime.yml` workflow file with your website domain and **time schedule** to monitor website at intervals.
+4. **Add your domain** to the `CONFIG.json` _or_ mention your domain under "WEBSIRE_DOMAIN" in `.github/workflows/uptime.yml` workflow.
 5. Run `deno run -A scripts/get_data.js` to check your settings.
-6. Configure your GitHub repository secrets for the Browserless server domain
+6. Configure your GitHub repository secrets for the Browserless serv domain
    and token.
 7. Enable GitHub Pages for your repository.
 8. Push your changes to GitHub, and your self-hosted Tila Dashboard will be up
@@ -115,5 +118,7 @@ project's goals.
 <p align="center><strong>👋 We hope Tila Dashboard helps you effortlessly monitor and
 manage your website's uptime, metrics, and incident history. Happy coding! </strong></p>
 
-> ![WARNING] Error status on live demo website is because I haven't hosted
+> ![WARNING] 
+> 
+> Error status on live demo website is because I haven't hosted
 > browserless otherwise it would show working sign!
