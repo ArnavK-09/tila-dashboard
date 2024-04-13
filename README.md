@@ -134,7 +134,7 @@ project's goals.
 
 <p align="center">If you find Tila Dashboard useful, please consider starring the repository. Your support helps us improve and maintain the project.</p>
 
-> ![WARNING]
+> [!WARNING]
 >
 > Error status on live demo website is because I haven't hosted browserless
 > otherwise it would show working sign!
