@@ -1,0 +1,15 @@
+<div class="w-full py-26 rounded-2xl py-2 grid place-items-center text-center font-semibold text-2xl bg-brand-900">
+  <div class="my-20">
+    <div class="grid place-items-center">
+      {% if tila.status == "online" %}
+      <img src="/icons/online.svg" alt="online" class="h-20 w-20 aspect-square my-5" />
+      {% else %}
+      <img src="/icons/offline.svg" alt="offline" class="h-20 w-20 aspect-square my-5" />
+      {% endif %}
+    </div>
+    <div>
+      <h2 class="font-bold brightness-125 text-3xl capitalize">{{tila.status}}</h2>
+      <p class="opacity-70 text-md tracking-tight lowercase">As of {{tila.time}}</p>
+    </div>
+  </div>
+</div>
