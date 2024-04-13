@@ -3,7 +3,7 @@
 ## Effortless Website Monitoring and Incident Management
 
 <p align="center">
-   <img alt="cover" src="//fav.farm/🌸" />
+   <img alt="cover" src="https://fav.farm/🌸" />
 </p>
 
 > [!NOTE] 🌐 Tila Dashboard is a powerful and user-friendly platform that
