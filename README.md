@@ -144,8 +144,8 @@ To run Tila Dashboard locally, follow these steps:
 4. Push your changes to your forked repository.
 5. Submit a pull request to the main repository.
 
-We'll be happy to review your contribution and merge it if it aligns with the
-project's goals.
+**We'll be happy to review your contribution and merge it if it aligns with the
+project's goals.**
 
 ---
 
