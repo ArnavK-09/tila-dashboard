@@ -61,9 +61,13 @@ import puppeteer from "npm:puppeteer-core";
     Deno.exit(0);
   } catch (e) {
     console.error(e);
+    let DATA = JSON.parse(
+      new TextDecoder("utf-8").decode(await Deno.readFile("_data.json")),
+    );
+    DATA.status = 'error'
     await Deno.writeFile(
       "_data.json",
-      new TextEncoder().encode(JSON.stringify({ status: "error" })),
+      new TextEncoder().encode(JSON.stringify(DATA)),
     );
 
     Deno.exit(0);
