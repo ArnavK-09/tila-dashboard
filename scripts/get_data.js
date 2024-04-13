@@ -70,7 +70,7 @@ import puppeteer from "npm:puppeteer-core";
     const DATA = await fetch(
       `https://${Deno.env.get("WEBSITE_DOMAIN") ?? CONFIG.domain}`,
     );
-const oldData = JSON.parse(
+    const oldData = JSON.parse(
       new TextDecoder("utf-8").decode(await Deno.readFile("_data.json")),
     );
     const result = {
