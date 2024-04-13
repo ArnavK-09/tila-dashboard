@@ -43,8 +43,9 @@
 
 - 🦕 [Deno](https://deno.land/) - A modern, secure, and fast runtime for
   JavaScript and TypeScript.
-- 🌙 [Lume](https://lume.land/) - A Deno-powered powerfull static site
+- 🔥 [Lume](https://lume.land/) - A Deno-powered powerfull static site
   generator.
+- 🌙 [Lume CMS](https://lume.land/cms) - Great content management tool that supports GitHub versioning also as well as local
 - 🧠 [Nunjucks](https://mozilla.github.io/nunjucks/) - A powerful templating
   engine for JavaScript.
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
@@ -53,6 +54,35 @@
   running headless Chrome and Puppeteer.
 - 📊 [Chart.js](https://www.chartjs.org/) - A popular JavaScript library for
   creating beautiful data visualizations.
+
+
+## 🖼️ Screenshots
+
+> Here's a working and expected screenshot of Tila dashboard
+
+
+
+| Website Monitor [Online] |
+|------------|
+| ![Demo](screenshots/online.png) |
+
+
+| Website Monitor [Offline] |
+|------------|
+| ![Demo](screenshots/offline.png) |
+
+
+| Managing Incidents [CMS] |
+|------------|
+| ![Demo](screenshots/incident.png) |
+
+
+| Content Management System |
+|------------|
+| ![Demo](screenshots/cms.png) |
+
+
+---
 
 # 🚀 Self-Hosting
 
@@ -80,17 +110,6 @@
 > [!IMPORTANT]
 > 
 > Remember, these steps guide you through the initial setup process. After completing these steps, you can further customize the Tila Dashboard to meet your specific needs, such as adding more websites to monitor, configuring incident reporting, and exploring the various features of the dashboard.
-
-
-## 🖼️ Screenshots
-
-> Here's a working and expected screenshot of Tila dashboard
-
-
-| TODO |
-|------------|
-| ![Demo](todo.jpeg) |
-
 
 ---
 
@@ -136,8 +155,8 @@ project's goals.
 
 > [!WARNING]
 >
-> Error status on live demo website is because I haven't hosted browserless
-> otherwise it would show working sign!
+> - [x] Error status on live demo website is because I haven't hosted browserless otherwise it would show working sign!
+> - [x] Current Content Management System of Incidents Managments is set to be on work local environment only and uses [CMS](CMS) Folder for saving data! If you are using in prod. you need to switch to GitHub storage in cms settings, you can take guidance [here](https://lume.land/cms)
 
 
 ---
