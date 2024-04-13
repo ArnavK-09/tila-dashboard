@@ -70,17 +70,20 @@ import puppeteer from "npm:puppeteer-core";
     const DATA = await fetch(
       `https://${Deno.env.get("WEBSITE_DOMAIN") ?? CONFIG.domain}`,
     );
+const oldData = JSON.parse(
+      new TextDecoder("utf-8").decode(await Deno.readFile("_data.json")),
+    );
     const result = {
       "tila": {
         "domain": Deno.env.get("WEBSITE_DOMAIN") ?? CONFIG.domain,
-        "metrics": {
+        "metrics": (oldData.tila?.metrics ?? {
           "memory_usage": "-",
           "dom_load_time": "-",
           "time_to_first_byte": "-",
           "frames": "-",
           "total_nodes": "-",
           "load_time": "-",
-        },
+        }),
         "time": new Date().toUTCString(),
       },
     };
