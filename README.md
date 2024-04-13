@@ -5,7 +5,7 @@
 <p align="center">
 <h2 align="center">Effortless Website Monitoring and Incident Management</h2>
 <br />
-<img alt="cover" src="https://fav.farm/🌸" height="200" width="20" />
+<img alt="cover" src="https://fav.farm/🌸" height="100%" width="100%" />
 </p>
 
 > [!NOTE]
@@ -80,6 +80,17 @@
 > [!IMPORTANT]
 > 
 > Remember, these steps guide you through the initial setup process. After completing these steps, you can further customize the Tila Dashboard to meet your specific needs, such as adding more websites to monitor, configuring incident reporting, and exploring the various features of the dashboard.
+
+
+## 🖼️ Screenshots
+
+> Here's a working and expected screenshot of Tila dashboard
+
+
+| TODO |
+|------------|
+| ![Demo](todo.jpeg) |
+
 
 ---
 
