@@ -6,7 +6,7 @@ import nunjucks from "lume/plugins/nunjucks.ts";
 
 const site = lume({
   server: {
-    port: 2334,
+    port: 6969,
   },
   components: {
     variable: "components",
