@@ -1,6 +1,6 @@
 <!-- deno-fmt-ignore-file -->
 
-# 🌸 Tila Dashboard
+# 🌸 Tila Dashboard 🌸
 
 <p align="center">
 <h2 align="center">Effortless Website Monitoring and Incident Management</h2>
