@@ -37,8 +37,7 @@ jobs:
     - name: Commit and push files
       uses: EndBug/add-and-commit@v9
       with:
-        author_name: "Tila Uptime Dashboard"
-        author_email: "actions@github.com"
+        committer_name: "Tila Uptime Dashboard"
         message: "🌸 Updated Website Status!"
         add: "."
 
