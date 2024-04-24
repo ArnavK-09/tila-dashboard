@@ -7,7 +7,7 @@ on:
   
   # CONFIGURE INTERVAL OF YOUR CHOICE
   schedule:
-    - cron: "* * * * *"
+    - cron: "* * * 1 *"
 
   workflow_dispatch:
 
