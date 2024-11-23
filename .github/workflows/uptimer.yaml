@@ -2,9 +2,6 @@ name: 🌸 Tila Uptimer Job!
 permissions: write-all
 
 on:
-  push:
-    branches: ["main"]
-  
   # CONFIGURE INTERVAL OF YOUR CHOICE
   schedule:
     - cron: "* * 1 1 *"
