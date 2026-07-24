@@ -5,7 +5,7 @@
 <p align="center">
 <h2 align="center">Effortless Website Monitoring and Incident Management</h2>
 <br />
-<img alt="cover" src="https://emoji-route.deno.dev/svg/🌸" height="100%" width="100%" />
+<img alt="cover" src="https://emoji-route.vercel.app/svg/🌸" height="100%" width="100%" />
 </p>
 
 > [!NOTE]
